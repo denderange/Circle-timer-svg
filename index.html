@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Dennis Polukaroff">
+	<title></title>
+	<link rel="stylesheet" href="./reset-default.css">
+	<link rel="stylesheet" href="./timer-theme.css">
+	<link rel="stylesheet" href="./style.css">
+	<script src="./timer.js" defer></script>
+</head>
+
+<body>
+	<div class="timer">
+		<div class="timer__circle">
+			<svg class="timer__svg">
+				<circle cx="70" cy="70" r="70" id="circle-day"></circle>
+			</svg>
+			<div class="timer__time txt-day">
+				<div id="days">00</div>
+				<span>Days</span>
+			</div>
+		</div>
+
+		<div class="timer__circle">
+			<svg class="timer__svg">
+				<circle cx="70" cy="70" r="70" id="circle-hour"></circle>
+			</svg>
+			<div class="timer__time txt-hour">
+				<div id="hours">00</div>
+				<span>Hours</span>
+			</div>
+		</div>
+
+		<div class="timer__circle">
+			<svg class="timer__svg">
+				<circle cx="70" cy="70" r="70" id="circle-min"></circle>
+			</svg>
+			<div class="timer__time txt-min">
+				<div id="minutes">00</div>
+				<span>Minutes</span>
+			</div>
+		</div>
+
+		<div class="timer__circle">
+			<svg class="timer__svg">
+				<circle cx="70" cy="70" r="70" id="circle-sec"></circle>
+			</svg>
+			<div class="timer__time txt-sec">
+				<div id="seconds">00</div>
+				<span>Seconds</span>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
